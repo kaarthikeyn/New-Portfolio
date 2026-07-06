@@ -1,0 +1,267 @@
+
+
+header{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 7rem;
+    border: 5px white solid;
+    border-radius: 10px;
+    color: white;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    list-style: none;
+    
+}
+.navigation a{
+    color: white;
+}
+.navigation a:hover{
+    color: black;
+}
+#Intro{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0 7rem;
+    border: 5px black solid;
+    border-radius: 10px;
+    padding-bottom: 45px;
+    margin-top: 10px;
+}
+.introText{
+    margin-top: 20px;
+    background-color: white;
+}
+.tagline{
+    background-color: white;
+    font-size:30px;
+    color: darkgray;
+}
+.introName{
+    background-color: white;
+    font-size: 70px;
+}
+.button1{
+    border: 5px orange solid;
+    padding: 11px;
+    border-radius: 15px;
+    background-color: orange;
+}
+.button2{
+    border: 5px orange solid;
+    padding: 11px;
+    border-radius: 15px;
+    background-color: white;
+}
+.button1:hover{
+    background-color: black;  
+    color: red;
+}
+.button2:hover{
+    background-color: black;
+    color: red;
+}
+.MyImage{
+    padding-top: 25px;
+    max-width: 100%;
+    height: auto;
+    background-color: white;
+}
+.AboACon{
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+#About{
+    background-color: white;
+    flex: 1;
+    margin-top: 20px;
+    border: 5px black solid;
+    border-radius: 10px;
+    padding-bottom: 24px;
+}
+.AboutHead{
+    text-align: center;
+    color: black;
+    text-align: center;
+}
+.ASubHead{
+    font: bold;
+    padding-left: 5%;
+}
+.Acontent{
+    font-size: large;
+    padding-right: 5%;
+    padding-left:5% ;
+}
+#About:hover{
+    background-color: orange;
+    color: white;
+}
+.CHead{
+    text-align: center;
+}
+.Contact{
+    margin-top: 20px;
+    flex: 1;
+    padding: 15px;
+    border: 5px black solid;
+    border-radius: 10px;
+}
+.CMain{
+    font-size: large;
+}
+.Contact:hover{
+    background-color: orange;
+    color: white;
+}
+.SHead{
+    text-align: center;
+}
+
+.Skilldiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    padding: 10px;
+}
+.Skill ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+}
+
+.Skill li{
+    border: 1px black solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+.Skill{
+    border: 3px black solid;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+#Skill{
+    border: 5px black solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 50px;
+    padding-top:0;
+}
+#Skill:hover{
+    background-color: orange;
+    color: white;
+}
+.Skill:hover{
+    background-color: orangered;
+    color: white;
+}
+
+
+.Skilldiv{
+    grid-template-columns: 1fr;
+}
+@media (min-width: 600px) {
+    .Skilldiv{
+        grid-template-columns: repeat(2,1fr);
+    }   
+}
+@media (min-width: 900px) {
+    .Skilldiv{
+        grid-template-columns: repeat(3,1fr);
+    }   
+}
+.PHead{
+    text-align: center;
+}
+.Projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.ProjectGrid{
+    border: 3px black solid;
+    border-radius: 5px;
+    margin: 5px;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+#Project{
+    border: 5px black solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 50px;
+    padding-top: 0%;
+}
+#Project:hover{
+    background-color: orange;
+    color: white;
+}
+
+.ProjectGrid:hover{
+    background-color: orangered;
+    color: white;
+}
+
+
+.Projects{
+    grid-template-columns: 1fr;
+}
+@media (min-width: 600px) {
+    .Projects{
+        grid-template-columns: repeat(2,1fr);
+    }   
+}
+@media (min-width: 900px) {
+    .Projects{
+        grid-template-columns: repeat(3,1fr);
+    }   
+}
+
+#form{
+    margin-top: 20px;
+    padding: 20px;
+    border: 5px black solid;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+
+}
+
+footer{
+    margin-top: 20px;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.Ful{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1px;
+    list-style: none;
+}
+.Ful li{
+    border: 3px black solid;
+    padding: 10px;
+    border-radius: 10px;
+}
